@@ -1,0 +1,19 @@
+:root {
+  /* typography */
+  /* definir los colores en el archivo de variables */
+  --color-text: black;
+  --color-text-heading: black;
+  --color-text-subtle: black;
+}
+
+body {
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+form legend {
+  color: var(--color-text-heading);
+}
